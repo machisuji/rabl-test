@@ -2,8 +2,8 @@
 
 Routes for testing:
 
-* localhost:3000/posts.{xml|json}
-* localhost:3000/posts/{id}.{xml|json}
+* localhost:3000/posts.{xml | json}
+* localhost:3000/posts/{id}.{xml | json}
 
 There are branches for different rabl configurations.
 
