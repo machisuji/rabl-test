@@ -7,6 +7,6 @@ Routes for testing:
 
 There are branches for different rabl configurations.
 
-= Current configuration
+=== Current configuration
 
 +default+
