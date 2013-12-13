@@ -7,5 +7,10 @@ class CreatePosts < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    if Post.count == 0
+      Post.create! :title => "Wurst", :body => "foobar", :published => true
+      Post.create! :title => "Quick", :body => "Quack", :published => false
+    end
   end
 end
