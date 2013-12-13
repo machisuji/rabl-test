@@ -1,4 +1,4 @@
-IncludeChildRoot::Application.routes.draw do
+RablTest::Application.routes.draw do
   resources :posts
 
 
