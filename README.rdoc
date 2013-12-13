@@ -9,4 +9,26 @@ There are branches for different rabl configurations.
 
 === Current configuration
 
-+default+
++object_but_no_collection_root_nodes+
+
+This means single objects should have a root node like this:
+
+    {
+      "post": {
+        "id": 42,
+        "title": "Wurst",
+        "body": "foobar"
+      }
+    }
+
+While collections should look like this:
+
+    {
+      "posts": [
+        {
+          "id": 42,
+          "title": "Wurst",
+          "body": foobar
+        }
+      ]
+    }
